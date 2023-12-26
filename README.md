@@ -6,7 +6,7 @@ This simple plugin allows players to kill others in 1 Hit. Ported this plugin [1
 ## Installation:
 **1.** Upload files to your server.
 
-**2.** Edit **configs/plugins/SLAYER_UnrestrictedFOVSLAYER_1HitKill/SLAYER_1HitKill.json** if you want to change the settings.
+**2.** Edit **configs/plugins/SLAYER_1HitKill/SLAYER_1HitKill.json** if you want to change the settings.
 
 **3.** Change the Map **or** Restart the Server **or** Load the Plugin.
 
