@@ -12,6 +12,7 @@ This simple plugin allow players to kill others in 1 Hit. Ported this plugin [1 
 
 ## Features:
 **1.** You can add multiple guns
+
 **2.** You can set the damage of 1 hit
 
 
