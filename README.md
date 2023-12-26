@@ -1,7 +1,7 @@
 # Donate: If you like my work, you can donate to me via [Steam Trade Offer](https://bit.ly/3qDpgPd)
 
 ## Description:
-This simple plugin allow players to kill others in 1 Hit. Ported this plugin [1 Hit Kill](https://forums.alliedmods.net/showthread.php?p=2569642)
+This simple plugin allows players to kill others in 1 Hit. Ported this plugin [1 Hit Kill](https://forums.alliedmods.net/showthread.php?p=2569642)
 
 ## Installation:
 **1.** Upload files to your server.
