@@ -19,10 +19,11 @@ This simple plugin allows players to kill others in 1 Hit. Ported this plugin [1
 ## Configuration:
 ```
 {
-  "PluginEnabled": true,  // Enable/Disable Plugin
-  "Weapon": "awp,ssg08",  // Make sure there is no spaces in this string | Empty String means all weapons
-  "Damage": 300,          // Damage given to player with 1 hit
-  "ConfigVersion": 1      // Don't Change this
+  "PluginEnabled": true,                 // Enable/Disable Plugin
+  "Weapon": "awp,ssg08",                 // Make sure there are no spaces in this string | Empty String means all weapons
+  "Damage": 300,                         // Damage given to player with 1 hit
+  "AdminFlagTo1HitKill": "@css/root",    // Admin Flag require to 1 Hit kill | Empty means all players can 1 Hit kill
+  "ConfigVersion": 1                     // Don't Change this
 }
 ```
 
