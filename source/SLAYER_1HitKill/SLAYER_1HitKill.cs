@@ -9,6 +9,7 @@ public class ConfigSpecials : BasePluginConfig
     [JsonPropertyName("PluginEnabled")] public bool PluginEnabled { get; set; } = true;
     [JsonPropertyName("Weapon")] public string Weapon { get; set; } = "weapon_";
     [JsonPropertyName("Damage")] public int Damage { get; set; } = 300;
+    [JsonPropertyName("AdminFlagTo1HitKill")] public string AdminFlagTo1HitKill { get; set; } = "@css/root";
 }
 public class SLAYER_1HitKill : BasePlugin, IPluginConfig<ConfigSpecials>
 {
@@ -39,6 +40,10 @@ public class SLAYER_1HitKill : BasePlugin, IPluginConfig<ConfigSpecials>
                 if (!attacker.IsValid || @event.Userid.TeamNum == attacker.TeamNum && !(@event.DmgHealth > 0 || @event.DmgArmor > 0))
                     return HookResult.Continue;
 
+                // Check if there is any flag requirement
+                if(Config.AdminFlagTo1HitKill != "" && !AdminManager.PlayerHasPermissions(attacker, Config.AdminFlagTo1HitKill))
+                    return HookResult.Continue;
+                
                 
                 if(Config.Weapon == "" || Config.Weapon == " ") // All Weapons
                 {
