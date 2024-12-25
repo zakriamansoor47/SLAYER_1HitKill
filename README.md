@@ -18,7 +18,7 @@ This simple plugin allows players to kill others in 1 Hit. Ported this plugin [1
 
 
 ## Configuration:
-```
+```json
 {
   "PluginEnabled": true,                 // Enable/Disable Plugin
   "Weapon": "awp,ssg08",                 // Make sure there are no spaces in this string | Empty String means all weapons
